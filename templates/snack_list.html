@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+ <h1>  Snack Tracker Project</h1> 
+ <h2>Snacks List: </h2> 
+ <ul> {% for snack in object_list %}
+    <li>{{snack.name}} </li> 
+    
+    {% endfor%} {% endblock content %} 
+</ul>
