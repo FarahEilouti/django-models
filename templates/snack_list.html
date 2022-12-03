@@ -5,6 +5,7 @@
  <h2>Snacks List: </h2> 
  <ul> {% for snack in object_list %}
     <li>{{snack.name}} </li> 
-    
+    <a href="{% url 'Detail' snack.id%}">Detail </a>
+
     {% endfor%} {% endblock content %} 
 </ul>

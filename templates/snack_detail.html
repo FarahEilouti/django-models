@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+ <h1>  Snack Tracker Project</h1> 
+ <h2>Snacks details: </h2> 
+ <h2>Purchaser: {{snack.purchaser}} </h2> 
+ <p>Description: {{snack.description}} </p> 
+ <a href="{% url 'Snacks' %}">Home </a>
+ {% endblock content %} 
+
